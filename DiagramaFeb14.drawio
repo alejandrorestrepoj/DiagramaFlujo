@@ -11,7 +11,24 @@
           <mxGeometry x="339" y="240" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vY56f5D4LUq1K3Phyb_F-3" value="Insertar &quot;X&quot; cantidad de alumnos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
-          <mxGeometry x="364" y="120" width="100" height="60" as="geometry" />
+          <mxGeometry x="364" y="120" width="116" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vY56f5D4LUq1K3Phyb_F-4" value="X &amp;gt; 30" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="413.5" y="360" width="76.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vY56f5D4LUq1K3Phyb_F-5" value="X &amp;gt; 50" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vY56f5D4LUq1K3Phyb_F-6" value="X &amp;gt;= 100" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vY56f5D4LUq1K3Phyb_F-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="vY56f5D4LUq1K3Phyb_F-2" target="vY56f5D4LUq1K3Phyb_F-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="320" />
+              <mxPoint x="165" y="320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
