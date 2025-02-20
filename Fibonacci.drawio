@@ -11,10 +11,25 @@
           <mxGeometry x="344" y="200" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="E2_2Dys80-J_5smP2hZv-3" value="Leer N" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="334" y="310" width="160" height="40" as="geometry" />
+          <mxGeometry x="330" y="315" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="E2_2Dys80-J_5smP2hZv-6" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="334" y="400" width="156" height="50" as="geometry" />
+        <mxCell id="E2_2Dys80-J_5smP2hZv-7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="86" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E2_2Dys80-J_5smP2hZv-8" value="N = 2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="267" y="397" width="86" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E2_2Dys80-J_5smP2hZv-9" value="N = 1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="458" y="397" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E2_2Dys80-J_5smP2hZv-10" value="N = 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E2_2Dys80-J_5smP2hZv-11" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="376" y="409" width="59" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="E2_2Dys80-J_5smP2hZv-12" value="i = 1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="362.55" y="536" width="85.91" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
