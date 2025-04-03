@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.5">
   <diagram name="Página-1" id="3rsLGm6eZWCPfFt62zEs">
-    <mxGraphModel>
+    <mxGraphModel dx="1420" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-1" value="INICIO" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="372" y="50" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0.838;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VMaj6SFezZGw3qRQuU4A-3" target="VMaj6SFezZGw3qRQuU4A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-3" value="Insertar medidas en metros (med_met)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="344" y="120" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VMaj6SFezZGw3qRQuU4A-6" target="VMaj6SFezZGw3qRQuU4A-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-6" value="Leer med_mety" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="324" y="227" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VMaj6SFezZGw3qRQuU4A-8" target="VMaj6SFezZGw3qRQuU4A-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-8" value="med_pul = med_mety * 0.0254" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="345" y="295" width="138" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VMaj6SFezZGw3qRQuU4A-1" target="VMaj6SFezZGw3qRQuU4A-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.493;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VMaj6SFezZGw3qRQuU4A-11" target="VMaj6SFezZGw3qRQuU4A-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-11" value="Imprimir med_put" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="365" y="360" width="97.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VMaj6SFezZGw3qRQuU4A-14" target="VMaj6SFezZGw3qRQuU4A-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-14" value="&quot;La medida de la tela en metros a pulgadas es: &quot; med-pulgadas" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="144" y="430" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMaj6SFezZGw3qRQuU4A-18" value="D = SQRT((co*co)+(ca*ca))" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="321" y="567" width="186" height="35" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
